@@ -9,3 +9,12 @@ body{
     background-position: bottom center; 
     height: 250px;
 }
+
+.imgportfolio {
+    width: 700px;
+    height: 400px;
+}
+
+.container-portfolio {
+    background: #BDBDBD;
+}
