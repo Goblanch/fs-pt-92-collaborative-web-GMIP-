@@ -1,29 +1,31 @@
 <!-- your html code here IRENE-->
-<div class="container-fluid  justify-content-center align-items-center">
 
-
-<!--texto-->
-
- <div class="col-10">
+<div class="container-fluid d-flex justify-content-center align-items-center" style="background-color: white;">
+  <div>
+  <!--texto-->
+ <div class="col-10 mx-auto my-5">
     <h2>Contact</h2>
     <p>We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out. Fill out the form below, and we'll get back to you as soon as possible.</p>
-
-
 </div>
 <!--Formulario de contacto-->
-<div class="col-8">
-<div class="mb-3 row">
-    <label for="emailAddress" class="col-sm-2 col-form-label">Your email</label>
+<div class="col-8 mx-auto align-items-center rounded mb-5" style="background-color: whitesmoke; border: 1px solid #9791915b;">
+<div class="mb-3 row m-2 mt-4">
+    <label for="emailAddress" class="col-sm-2 col-form-label d-flex justify-content-end g-10 mt-3"><b>Your E-mail</b></label>
     <div class="col-sm-10">
-        <input type="email" class="form-control" id="emailAddress" placeholder="Your email">    </div>
+        <input type="email" class="form-control mt-3" id="emailAddress" placeholder="Your email">    </div>
   </div>
-  <div class="mb-3 row">
-    <label for="message" class="col-sm-2 col-form-label">Your message</label>
+  <div class="mb-3 row m-2">
+    <label for="message" class="col-sm-2 col-form-label d-flex justify-content-end"><b>Your message</b></label>
     <div class="col-sm-10">
-        <textarea class="form-control" aria-label="With textarea" placeholder="Please enter your message here..."></textarea>
+        <textarea class="form-control" style="min-height: 100px;" aria-label="With textarea" placeholder="Please enter your message here..."></textarea>
     </div>
   </div>
   <!--botones-->
-
+  <div class="mb-3 row m-2 d-flex justify-content-end">
+    <div class="col-2">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </div>
+</div>
 </div>
 </div>
