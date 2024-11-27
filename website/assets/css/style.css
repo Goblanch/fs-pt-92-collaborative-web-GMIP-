@@ -9,3 +9,17 @@ body{
     background-position: bottom center; 
     height: 250px;
 }
+
+.imgportfolio {
+    width: 100%;
+}
+
+.imgportfolio {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+}
+
+#divportfolio {
+    width: 100%;
+}
